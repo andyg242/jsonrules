@@ -51,11 +51,10 @@ module.exports.endpoint = (event, context, callback) => {
     .then(results => {
       // 'results' is an object containing successful events, and an Almanac instance containing facts
       results.events.map(event => {
-          //console.log(event.params.message)
           const response = {
             statusCode: 200,
             body: JSON.stringify({
-              message: `Hello, the current time is ${event.params.message}.`,
+              message: `${event.params.message}`,
             }),
           };
         

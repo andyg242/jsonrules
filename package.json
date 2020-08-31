@@ -1,7 +1,7 @@
 {
-  "name": "aws-node-simple-http-endpoint",
+  "name": "aws-node-json-rules-example-endpoint",
   "version": "1.0.0",
-  "description": "Example demonstrates how to setup a simple HTTP GET endpoint",
+  "description": "Example demonstrates how to use JSON rules within a serverless context",
   "author": "",
   "license": "MIT",
   "dependencies": {
